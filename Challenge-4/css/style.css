@@ -1,0 +1,91 @@
+:root {
+  --background-card: #fff;
+  --background-learn: #f8f8f8;
+  --background-internal: #f3f4f5;
+  --box-shadow: 0 10px 29px rgba(0, 0, 0, 0.2);
+  --color-text: #172533;
+  --color-text-soft: #626e76;
+  --color-accent: #7c47c0;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.learn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  /* border: solid red; */
+  box-shadow: var(--box-shadow);
+  padding: 2.5rem;
+  max-width: 400px;
+  background-color: var(--background-card);
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-bottom: 1.4rem;
+  padding-top: 0rem;
+}
+
+label {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+
+.utilisateurInfo {
+  background-color: var(--background-internal);
+  border: none;
+  border-radius: 0.7rem;
+  height: 3rem;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.memory {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.8rem;
+  font-size: 0.8rem;
+  font-weight: 800;
+  height: 1.5rem;
+}
+
+button {
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-accent);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+}
+
+.padding-left {
+  padding-left: 0.5rem;
+}
+
+.casecocher {
+  height: 1.2rem;
+  width: 1.2rem;
+  opacity: 0.5;
+}
