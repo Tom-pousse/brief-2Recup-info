@@ -36,7 +36,7 @@ body {
   background-color: var(--background-card);
 }
 
-h1 {
+legend {
   font-size: 1.8rem;
   font-weight: 900;
   margin-bottom: 1.4rem;
@@ -44,8 +44,9 @@ h1 {
 }
 
 label {
+  display: block;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 0.8rem;
   margin-bottom: 0.6rem;
 }
@@ -54,11 +55,12 @@ label {
   background-color: var(--background-internal);
   border: none;
   border-radius: 0.7rem;
-  height: 3rem;
+  height: 3.5rem;
   padding-left: 2rem;
   margin-bottom: 2rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
+  width: 100%;
 }
 .memory {
   text-transform: uppercase;
@@ -88,4 +90,8 @@ button {
   height: 1.2rem;
   width: 1.2rem;
   opacity: 0.5;
+}
+
+fieldset {
+  border: none;
 }

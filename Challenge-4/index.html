@@ -22,18 +22,36 @@
   <body>
     <section class="learn">
       <!-- Début de la zone d'entrainement -->
-      <div class="card">
-        <h1>Je me connecte avec mes identifiants</h1>
-        <label for="">adresse email</label>
-        <input type="" class="utilisateurInfo" placeholder="Name@gmail.com" />
-        <label for="">mot de passe</label>
-        <input type="text" class="utilisateurInfo" placeholder="*******" />
+      <form class="card">
+        <legend>Je me connecte avec mes identifiants</legend>
+        <fieldset>
+          <div>
+            <label for="">adresse email</label>
+            <input
+              type="email"
+              required
+              autocomplete="email"
+              class="utilisateurInfo"
+              placeholder="Name@gmail.com"
+            />
+          </div>
+          <div>
+            <label for="">mot de passe</label>
+            <input
+              type="password"
+              required
+              autocomplete="current-password"
+              class="utilisateurInfo"
+              placeholder="*******"
+            />
+          </div>
+        </fieldset>
         <div class="memory">
           <input class="casecocher" type="checkbox" />
           <span class="padding-left">se souvenir de moi</span>
         </div>
         <button>Connexion</button>
-      </div>
+      </form>
 
       <!-- Fin de la zone d'entrainement -->
     </section>
