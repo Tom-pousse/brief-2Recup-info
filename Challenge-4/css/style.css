@@ -32,6 +32,7 @@ body {
   /* border: solid red; */
   box-shadow: var(--box-shadow);
   padding: 2.5rem;
+  margin-top: 3%;
   max-width: 400px;
   background-color: var(--background-card);
 }
@@ -62,6 +63,7 @@ label {
   font-weight: 500;
   width: 100%;
 }
+
 .memory {
   text-transform: uppercase;
   display: flex;
@@ -94,4 +96,13 @@ button {
 
 fieldset {
   border: none;
+}
+
+.borderError {
+  border: solid red 5px;
+}
+
+.minitext {
+  font-size: 8px;
+  color: red;
 }

@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Challenge 4 - HTML & CSS</title>
+
+    <!-- ce css permet simplement de mettre en page la présentation -->
+    <link rel="stylesheet" href="../présentation css/presentation.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,8 +16,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="/js/script.js" defer></script>
+    <script src="/js/script2.js" defer></script>
   </head>
+
   <body>
     <section class="learn">
       <!-- Début de la zone d'entrainement -->
@@ -22,10 +27,7 @@
         <fieldset>
           <div>
             <label for="">adresse email</label>
-            <p id="errorMail" class="minitext"></p>
-            <p id="errordetailMail" class="minitext"></p>
-            <p></p>
-            <p></p>
+            <p id="errorMail"></p>
             <input
               type="email"
               required
@@ -37,12 +39,7 @@
           </div>
           <div>
             <label for="">mot de passe</label>
-
-            <p id="errorDetailMdp" class="minitext"></p>
-            <p id="errorDetailMdp1" class="minitext"></p>
-            <p id="errorDetailMdp2" class="minitext"></p>
-            <p id="errorDetailMdp3" class="minitext"></p>
-
+            <p id="errorPass"></p>
             <input
               type="password"
               required
@@ -61,6 +58,14 @@
       </form>
 
       <!-- Fin de la zone d'entrainement -->
+    </section>
+
+    <section class="preview" data-content="challenge 4">
+      <img
+        width="444px"
+        src="img/objectif/login-form.png"
+        alt="formulaire de connexion"
+      />
     </section>
   </body>
 </html>
